@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --gray700: hsl(0, 0%, 20%);
+    --gray800: hsl(0, 0%, 12%);
+    --gray900: hsl(0, 0%, 8%);
+
+    --tamano-fuente1: 16px;
+    --tamano-fuente2: 12px;
+    --tamano-fuente3: 10px;
+
+    --fuente: 'Inter', sans-serif;
+
+    --fuente-peso-400: 400;
+    --fuente-peso-600: 600;
+    --fuente-peso-700: 700;
+}
+
+body {
+    background-color: var(--gray900);
+    margin: 0;
+    padding: 0;
+}
+
+.social-links {
+    background-color: var(--gray800);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto;
+    width: 25%;
+}
+
+/** Estilo del avatar del blog **/
+.social-links .avatar {
+    border-radius: 50%;         /* Hace el avatar circular */
+    height: 15vh;               /* Ajusta el tamaño vertical */
+    margin-top: 25px;
+    object-fit: cover;          /* Ajusta la imagen sin deformar */
+    vertical-align: middle;     /* Alinea verticalmente si hay texto */
+    width: 15vh;                /* Ajusta el tamaño horizontal */
+}
+
+.nombre {
+    color: var(--white);
+    font-family: var(--fuente);
+    font-size: var(--tamano-fuente1);
+    font-weight: var(--fuente-peso-600);
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.direction {
+    color: var(--green);
+    font-family: var(--fuente);
+    font-weight: var(--fuente-peso-400);
+    font-size: var(--tamano-fuente3);
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.message {
+    color: var(--white);
+    font-family: var(--fuente);
+    font-weight: var(--fuente-peso-400);
+    font-size: var(--tamano-fuente2);
+    margin: 20px;
+}
+
+.button {
+    background-color: var(--gray700);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    font-family: var(--fuente);
+    font-size: var(--tamano-fuente2);
+    font-weight: var(--fuente-peso-600);
+    height: 35px;
+    margin-bottom: 15px;
+    width: 80%;
+    transition: transform 0.2s ease; /* Suaviza el efecto */
+}
+
+.button:hover {
+    background-color: var(--green);
+    color: var(--gray900);
+    transform: scale(1.1);
+    
+}
+
+.attribution {
+    color: var(--white);
+    font-size: 11px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--white);
+    text-decoration: none;
+}
+

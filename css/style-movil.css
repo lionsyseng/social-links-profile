@@ -1,0 +1,9 @@
+
+@media (min-width: 300px) and  (max-width: 767px) {
+    
+    .social-links {
+    margin: 70px auto;
+    width: 85%;
+}
+
+}
