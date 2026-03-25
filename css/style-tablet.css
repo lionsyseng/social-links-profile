@@ -1,17 +1,8 @@
+
 @media (min-width: 768px) and (max-width: 1023px) {
     
     .social-links {
     margin: 60px auto;
     width: 50%;
 }
-
-.button:hover {
-    background-color: var(--green);
-    color: var(--gray900);
-    transform: scale(1.1);
-    
 }
-
-}
-
-
