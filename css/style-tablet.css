@@ -6,12 +6,10 @@
 }
 
 .button:hover {
-    background-color: blue;
-    transform: scale(1.05);
-  }
-
-  button:active {
-  background: red;
+    background-color: var(--green);
+    color: var(--gray900);
+    transform: scale(1.1);
+    
 }
 
 }
