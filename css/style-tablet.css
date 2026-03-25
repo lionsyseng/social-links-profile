@@ -5,6 +5,15 @@
     width: 50%;
 }
 
+.button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+  }
+
+  button:active {
+  background: red;
+}
+
 }
 
 
