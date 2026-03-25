@@ -94,6 +94,14 @@ body {
     
 }
 
+/* Solo aplica hover si el dispositivo tiene puntero (mouse/stylus) */
+@media (hover: hover) {
+  .button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+  }
+}
+
 .attribution {
     color: var(--white);
     font-size: 11px;
