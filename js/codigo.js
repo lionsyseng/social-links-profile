@@ -19,6 +19,11 @@ const twiter = document.getElementById("twiter").addEventListener("click", funct
 });
 
 /** Función para direccionar a Instagram **/
-const instagram = document.getElementById("button").addEventListener("click", function() {
+const instagram = document.getElementById("instagram").addEventListener("click", function() {
     window.open("https://www.instagram.com/", "_blank");
+});
+
+/** Función para direccionar a Mi Sitio **/
+const misitio = document.getElementById("misitio").addEventListener("click", function() {
+    window.open("/Mi-Sitio/index.html", "_blank");
 });

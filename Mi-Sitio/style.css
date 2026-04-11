@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil&display=swap');
+
+:root {
+    --primary: #07213f;
+    --secondary: #594940;
+    --tertiary: #B39361;
+    --quatiary: #ACAFAF;
+    --quintary: #c4baab57;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    background-color: #07213f;
+}
+
+.container {
+    margin: 0;
+    padding: 20px 0px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.logo-content {
+    width: 40%;
+    max-width: 50%; 
+    justify-content: center;
+    transition: 0.35s ease;
+}
+
+.logo-content:hover {
+    cursor: pointer;
+    transform: scale(1.18);
+}
+
+.logo-content .logo-img {
+    width: 20px;
+    height: auto;
+    border: 3px solid var(--quatiary);
+    border-radius: 50%;
+}
+
+.logo-content .logo {
+    color: var(--quatiary);
+    font-family: "Saira Stencil", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.navbar-content {
+    width: 60%;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.navbar-content .menu-toggle, .menu-icono {
+    display: none;
+}
+
+.navbar-content .navbar ul {
+    display: flex;
+}
+
+.navbar-content .navbar ul li {
+    margin: 0px 30px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Estilo de los enlaces */
+.navbar-content .navbar ul li a {
+    color: var(--quatiary);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    display: block;
+    font-size: .75rem;
+    padding: 5px;
+}
+
+/* Efecto de enlaces */
+.navbar-content .navbar ul li a:hover {
+    color: black;
+    background-color: var(--quatiary);
+    border-radius: 10px;
+}
+
+
+
+
